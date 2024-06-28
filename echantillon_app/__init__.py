@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 print(pd.__version__)
-current_folder = os.getcwd()
+current_folder = '/home/marzayounes13/API_Github/echantillon_app'
 basepath = os.path.join(current_folder, "Models")
 
 # load models, threshold, data and explainer
