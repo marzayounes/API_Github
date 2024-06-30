@@ -8,9 +8,8 @@ import os
 
 app = Flask(__name__)
 print(pd.__version__)
-current_folder = '/home/marzayounes13/API_Github/echantillon_app'
+current_folder = '/home/marzayounes18/API_Github/echantillon_app'
 basepath = os.path.join(current_folder, "Models")
-
 # load models, threshold, data and explainer
 X_test = pd.read_csv(os.path.join(basepath, "X_test_sample.csv"))
 y_test = pd.read_csv(os.path.join(basepath, "y_test_sample.csv"))
